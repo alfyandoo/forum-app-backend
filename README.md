@@ -1,3 +1,3 @@
 # forum-app-backend
 
-Dicoding Back End Expert Submission
+Dicoding Back-End Expert Submission
