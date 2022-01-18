@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    -name: npm install migrate and test
+    - name: npm install migrate and test
       run: |
         npm install
         npm run migrate up
@@ -38,3 +38,4 @@ jobs:
         PGPORT: ${{ secrets.PGPORT_TEST }}
         ACCESS_TOKEN_KEY: ${{ secrets.ACCESS_TOKEN_KEY }}
         REFRESH_TOKEN_KEY: ${{ secrets.REFRESH_TOKEN_KEY }}
+        ACCCESS_TOKEN_AGE: ${{ secrets.ACCCESS_TOKEN_AGE }}
