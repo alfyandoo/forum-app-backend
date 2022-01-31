@@ -8,6 +8,10 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 225bfbf429f9755f8b3bb0e994e4250312022a28
     strategy:
       matrix:
         node-version: [14.x]
